@@ -1,0 +1,34 @@
+autoparal 4
+chksymbreak 0
+ecut 2.721139e+03 eV
+ixc 2
+kptopt 1
+natom 1
+ngkpt 1 1 1
+nshiftk 1
+nsppol 1
+nstep 500
+nsym 1
+occopt 7
+optcell 0
+shiftk  0 0 0
+toldfe 1.000000e-06 eV
+tsmear 1.000000e-01 eV
+#Definition of the unit cell
+acell
+1.00000000000000 1.00000000000000 1.00000000000000 Angstrom
+rprim
+3.00000000000000 0.00000000000000 0.00000000000000
+0.00000000000000 3.00000000000000 0.00000000000000
+0.00000000000000 0.00000000000000 3.00000000000000
+chkprim 0 # Allow non-primitive cells
+#Definition of the atom types
+ntypat 1
+znucl 8
+#Enumerate different atomic species
+typat
+ 1
+#Definition of the atoms
+xangst
+0.00000000000000 0.00000000000000 0.00000000000000
+chkexit 1 # abinit.exit file in the running directory terminates after the current SCF
