@@ -1,0 +1,16 @@
+&CONTROL
+  calculation='scf',
+  prefix='calc',
+  pseudo_dir='../../../../../psps/SG15/upf/LDA',
+  outdir='.',
+  tprnfor=.true.,
+  etot_conv_thr=1d0,
+  forc_conv_thr=0.0019446903957408628d00,
+/
+&SYSTEM
+  ibrav=0,
+  celldm(1)=1.8897261245650618d0,
+  nat=1,
+  ntyp=1,
+  ecutwfc=126.00000000000001d00,
+  ecutrho=1260.0000000000002d00,
