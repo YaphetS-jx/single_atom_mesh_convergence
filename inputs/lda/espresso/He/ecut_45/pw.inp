@@ -14,7 +14,6 @@
   ntyp=1,
   ecutwfc=89.99999999999999d00,
   ecutrho=899.9999999999999d00,
-  nbnd=11,
   occupations='smearing',
   smearing='gaussian',
   degauss=0.007349864494991328d00,

@@ -1,7 +1,6 @@
 dict(autoparal=4,
      chksymbreak=0,
      ecut=2721.1386024367243,
-     ixc=2,
      kptopt=1,
      kpts=None,
      ngkpt='1 1 1',

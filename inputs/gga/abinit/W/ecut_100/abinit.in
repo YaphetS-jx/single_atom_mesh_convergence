@@ -1,7 +1,7 @@
 autoparal 4
 chksymbreak 0
 ecut 2.721139e+03 eV
-ixc 2
+ixc 11
 kptopt 1
 natom 1
 ngkpt 1 1 1
